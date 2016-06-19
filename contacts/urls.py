@@ -10,5 +10,5 @@ admin.autodiscover()
 # url(r'^blog/', include('blog.urls')),
 
 urlpatterns = [
-    url(r'^',include('hello.urls'))
+    url(r'^',include('contact.urls'))
 ]
